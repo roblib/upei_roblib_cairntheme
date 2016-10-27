@@ -1,0 +1,163 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+body {
+  background-image: url('images/diagonal.png');
+  background-color: #ddd; }
+
+/*Top Menu bar*/
+
+.region-top-menu {
+/*  background: #333;*/
+  margin-bottom: 0px;
+}
+/*.region-top-menu a {
+  color: #fff;
+}
+.region-top-menu a.active {
+  color: #e4621c;
+}
+.region-top-menu li:hover a {
+  color: #fff;
+}
+.region-top-menu li:hover {
+  background: #e4621c;
+}*/
+
+/*Header*/
+
+#page > header {
+padding: 40px 0 0;
+}
+h1#site-name { /* 48px */
+  font-size: 1.5em;
+  margin: 0 0 0.2em 0;
+  padding: 0;
+}
+
+h1#site-name a, h1#site-name a:visited {
+/*  color: #fff;*/
+}
+#name-and-slogan {
+margin-top: 10px;
+}
+
+h2#site-slogan {
+/*  color: #52b1ea;*/
+  font-size: 1.077em;
+  margin: 0;
+  padding: 0;
+}
+
+/*content area*/
+div#columns {
+border-left: 1px solid lightgray;
+border-right: 1px solid lightgray;
+}
+
+/*panel pane styles - frontpage*/
+.pane-title.block-title {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 3px;
+}
+/*panel pane styles - remove the tabs*/
+.front ul.tabs.primary.clearfix {
+display: none;
+}
+/*search box*/
+.block-islandora-solr input.form-submit {
+  background: url(images/search-button.png) no-repeat scroll center top transparent;
+  border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+  cursor: pointer;
+  height: 25px;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  padding: 1px;
+  text-indent: -9999px;
+  width: 34px;
+  text-transform: uppercase; /* IE7 hack to trigger text indent reliably */
+}
+
+form#islandora-solr-simple-search-form input.form-submit {
+    padding-top: 0px;
+border-left: 0px;
+padding-left: 0px;
+margin-left: -4px;
+border-radius: 0 5px 5px 0;
+height: 26px;
+}
+form#islandora-solr-simple-search-form input.form-submit:hover  {
+background: url(images/search-button.png) no-repeat scroll center top transparent;
+}
+form#islandora-solr-simple-search-form input.form-text {
+border-radius: 5px 0px 0px 5px;
+border: 0px;
+}
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+
+.footer-block {
+    padding-left: 48px;
+}
+
+.footer-block ul {
+    list-style-type: n;
+}
+
+.footer-block ul.menu {
+    margin: 0px;
+}
+
+.footer-block ul.social-media-links {
+    margin-left: 30px;
+}
+/*slider position*/
+
+div#flexslider-1 {
+  margin-bottom: 0px;
+}
+.panel-pane.pane-views.pane-flexslider-views-example {
+  margin-bottom: 5px;
+}
+
+/*this may be temp*/
+
+
+
+div#tasks {
+  margin-bottom: 0px; }
+
+  
+
+.view-islandora-collections .views-field.views-field-PID {
+  float: left;
+  margin-right: 10px;
+  width: 100px; }
+.view-islandora-collections .views-row.views-row-2.views-row-even.views-row-last {
+  clear: both; 
+margin-top: 10px;}
+.view-islandora-collections .views-row-1 {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted lightgray;
+}
+.view-islandora-collections .views-row {
+  padding-bottom: 20px
+}
+
+/* ==========================================================================
+   islandora viewer tweaks
+   ========================================================================== */
+
+body.no-sidebars .islandora-large-image-content {
+width: 100%;
+}

@@ -1,0 +1,27 @@
+h1#site-name {
+  /*font-size: 2.8em;*/
+}
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  padding: 0 1.2em;
+  font-size: .94em;
+}
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  margin-right: 4px;
+}
+
+/* ==========================================================================
+   Header styles (added by R.Drew)
+   ========================================================================== */
+
+#logo {
+	float: none;
+}
+#name-and-slogan {
+	margin-top: 0px;
+	margin-left: 20px;
+}
+div#block-islandora-solr-simple {
+margin-top: 20px;
+}

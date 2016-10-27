@@ -1,0 +1,77 @@
+body {
+  padding: 0 8px;
+}
+h1#site-name {
+  /*font-size: 2em;*/
+}
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  padding: 0 1em;
+  font-size: .9em;
+}
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  margin-right: 2px;
+}
+
+/* ==========================================================================
+   responsive menu syles
+   ========================================================================== */
+   .responsive-menus.responsified span.toggler {
+    font-size: 1.6em;
+    padding-left: 10px;
+   }
+
+   .region-top-menu {
+  height: inherit;
+  padding: 5px 0px;
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple {
+    box-shadow: none;
+}
+
+.responsive-menus.responsified span.toggler {
+    box-shadow: none;
+    text-align: left;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li.last a {
+    border-bottom: none;
+}
+
+/* ==========================================================================
+   Header styles (added by R.Drew)
+   ========================================================================== */
+
+#logo {
+	float: none;
+}
+#name-and-slogan {
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+#branding {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px;
+}
+
+.region.region-header {
+    float: none;
+    width: 100%;
+    max-width: inherit;
+}
+
+header#header {
+    padding: 15px 0;
+}
+
+div#block-islandora-solr-simple {
+    float: none;
+}
+input#edit-islandora-simple-search-query {
+width: 50%;
+}
