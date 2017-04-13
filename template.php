@@ -5,7 +5,7 @@
  */
 
 function cairntheme_preprocess_html(&$vars) {
-	 drupal_add_css('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array('type' => 'external'));
+	 drupal_add_css('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array('type' => 'external'));
 }
 function cairntheme_process_html(&$vars) {
 }
